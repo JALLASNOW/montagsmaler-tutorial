@@ -1,0 +1,47 @@
+body {
+    background-color: #1e2a3b;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+
+    --primary-color: #309e7d;
+}
+
+.heading {
+    font-size: 44px;
+    color: var(--primary-color)
+}
+
+.your-word-text {
+    font-size: 14px;
+    margin: 64px 0 8px 0;
+}
+
+.word {
+    font-size: 40px;
+    margin:  0 0 64px 0;
+}
+
+.button {
+    padding: 18px 72px;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: var(--primary-color);
+}
+
+.previous-words {
+    max-width: 500px;
+    margin: 48px auto 0;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.old-words {
+    font-weight: 400;
+}
