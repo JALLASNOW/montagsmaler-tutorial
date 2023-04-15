@@ -14,7 +14,7 @@ body {
 
 .your-word-text {
     font-size: 14px;
-    margin: 64px 0 8px 0;
+    margin: 40px 0 8px 0;
 }
 
 .word {
@@ -44,4 +44,9 @@ body {
 
 .old-words {
     font-weight: 400;
+}
+
+.countdown {
+    margin-bottom: 0;
+    height: 30px;
 }
